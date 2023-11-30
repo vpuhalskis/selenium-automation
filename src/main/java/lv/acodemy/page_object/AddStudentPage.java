@@ -2,11 +2,12 @@ package lv.acodemy.page_object;
 
 import lv.acodemy.utils.LocalDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AddStudentPage {
 
-    ChromeDriver driver = LocalDriverManager.getInstance();
+    WebDriver driver = LocalDriverManager.getInstance();
 
 //    public AddStudentPage(ChromeDriver driver) {
 //        this.driver = driver;
