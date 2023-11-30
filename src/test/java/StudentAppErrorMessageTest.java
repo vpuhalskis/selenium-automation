@@ -27,7 +27,6 @@ public class StudentAppErrorMessageTest {
     WebElement error = LocalDriverManager.getInstance().findElement(By.id("name_help"));
     Assertions.assertThat(error.getText()).isEqualTo("Please enter student name");
 
-
 }
     @AfterMethod
     public void tearDown() {
